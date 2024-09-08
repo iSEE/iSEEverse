@@ -19,8 +19,12 @@ all_iSEE_pkgs <- c("iSEE",
     cli::ansi_align(all_versions$ver, max(cli::ansi_nchar(all_versions$ver)))
   )
 
+  bioc_info <- BiocManager::version()
+
   packageStartupMessage("Welcome to the iSEEverse!",
                         packageStartupMessage(iSEEverse_logo()),
+                        "\n--- Using Bioc version ", bioc_info, "    ---",
                         "\n--- Currently loaded packages: ---\n",
                         paste(packages_info, collapse = "\n"))
 }
+

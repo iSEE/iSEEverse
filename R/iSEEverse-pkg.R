@@ -16,6 +16,6 @@
 #'
 #' @importFrom cli col_green col_blue ansi_nchar ansi_align
 #' @importFrom utils packageVersion
-#' @importFrom BiocManager valid
+#' @importFrom BiocManager valid version
 #'
 "_PACKAGE"
