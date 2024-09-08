@@ -19,9 +19,11 @@ iSEEverse_update <- function(repos = getOption("repos")) {
 
   if(bmv) {
     cli::cat_line("All iSEEverse packages are up-to-date!")
-    return(invisible())
+    return(invisible(NULL))
   } else {
     # suggest command to install the not up-to-date ones
+    message("update this, to do")
+    return(invisible(NULL))
   }
 }
 
