@@ -5,7 +5,8 @@
 #' @keywords internal
 #'
 #' @import iSEE
-#' @import iSEEu
+#' @rawNamespace import(iSEEu, except = c(VolcanoPlot, LogFCLogFCPlot, MAPlot,
+#' .__C__VolcanoPlot, .__C__LogFCLogFCPlot, .__C__MAPlot))
 #' @import iSEEhex
 #' @import iSEEde
 #' @import iSEEpathways
