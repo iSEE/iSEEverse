@@ -11,7 +11,6 @@ Description: Meta package that installs (and loads) all iSEE-related packages.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
 Depends:
     R (>= 4.0.0)
 Imports:
@@ -34,3 +33,4 @@ Remotes:
     github::iSEE/iSEEid
 VignetteBuilder: knitr
 Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1

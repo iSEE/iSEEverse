@@ -12,10 +12,14 @@ import(iSEEindex)
 import(iSEEpathways)
 import(iSEEu, except = c(VolcanoPlot, LogFCLogFCPlot, MAPlot,
 .__C__VolcanoPlot, .__C__LogFCLogFCPlot, .__C__MAPlot))
-importFrom(BiocManager,valid)
-importFrom(BiocManager,version)
-importFrom(cli,ansi_align)
-importFrom(cli,ansi_nchar)
-importFrom(cli,col_blue)
-importFrom(cli,col_green)
+importFrom(BiocManager,
+  valid,
+  version
+)
+importFrom(cli,
+  ansi_align,
+  ansi_nchar,
+  col_blue,
+  col_green
+)
 importFrom(utils,packageVersion)
