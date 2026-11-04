@@ -1,0 +1,24 @@
+# iSEEverse
+
+The goal of iSEEverse is to help you installing and loading all packages
+around `iSEE` and its universe.
+
+## Installation
+
+You can install the development version of iSEEverse like so:
+
+\
+[`library`](https://rdrr.io/r/base/library.html)`(`[`"remotes"`](https://remotes.r-lib.org)`)`\
+`remotes``::`[`install_github`](https://remotes.r-lib.org/reference/install_github.html)`(``"iSEE/iSEEverse"``)`
+
+## How to use `iSEEverse`
+
+\
+[`library`](https://rdrr.io/r/base/library.html)`(``"iSEEverse"``)`
+
+## Code of Conduct
+
+Please note that the iSEEverse project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

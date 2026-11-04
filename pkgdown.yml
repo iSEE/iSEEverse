@@ -1,0 +1,6 @@
+pandoc: '3.13'
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  Introduction_to_iSEEverse: Introduction_to_iSEEverse.html
+last_built: 2026-11-04T15:05Z
